@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zookeeper Form</title>
+	<h1>Zoo Keeper Application Form</h1>
+	<p><em>Please complete the form. Mandatory fields are marked with a <b style="color:red">*</b></em></p>
+</head>
+<body>
+	<form>
+		<fieldset style="width:50%">
+			<legend>CONTACT DETAILS</legend>
+			Name <i style="color:red">*</i>	 	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="name" required size="45">
+			<br><br>
+			Telephone   &nbsp; &nbsp; &nbsp; &nbsp; <input type="Telephone" name="phone" size="45">
+			<br><br>
+			Email <i style="color:red">*</i>	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="email" name="mail" required size="45">
+		</fieldset>
+		<br><br>
+		<fieldset style="width:50%">
+			<legend>PERSONAL INFORMATION</legend>
+			Birth Date<i style="color:red">*</i>  &nbsp; &nbsp; &nbsp;<input type="date" name="bday" required="date" size="45">
+			<br><br>
+			Gender  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			<select name="Gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+			<br><br>
+			Bio &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" name="about" placeholder="About You" size="45">
+		</fieldset>
+		<br><br>
+		<fieldset style="width:50%">
+			<legend>PICK YOUR FAVOURITE ANIMALS</legend>
+			<input type="checkbox" name="favanimal"> Zebra &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			<input type="checkbox" name="favanimal"> Cat &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			<input type="checkbox" name="favanimal"> Anaconda &nbsp; &nbsp; &nbsp;&nbsp;
+			<input type="checkbox" name="favanimal"> Human
+			<br><br>
+			<input type="checkbox" name="favanimal"> Elephant &nbsp;&nbsp; &nbsp;
+			<input type="checkbox" name="favanimal"> Wild-beast &nbsp; &nbsp; &nbsp; 
+			<input type="checkbox" name="favanimal"> Python &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+			<input type="checkbox" name="favanimal"> Lion
+		</fieldset>
+		<br><br>
+		<input type="submit" onclick="alert('Application Submitted!')" value="Submit">
+	</form>
+</body>
+<br> <br><br>
+<b style="text-align: center; float:center;">Design by Maclemon</b>
+</html>
